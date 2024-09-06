@@ -7,7 +7,7 @@ const MainHeader = () => {
   return (
     <header className={styles.header}>
       <Link className={styles.logo} href="/">
-        <Image src={IconImg} alt="a plate with food on it." />
+        <Image src={IconImg} alt="a plate with food on it." priority />
         Foodies
       </Link>
       <nav className={styles.nav}>
