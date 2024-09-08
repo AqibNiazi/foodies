@@ -3,6 +3,8 @@ import React from "react";
 import IconImg from "@/assets/logo.png";
 import styles from "./main-header.module.css";
 import Image from "next/image";
+import NavLink from "./nav-link";
+
 const MainHeader = () => {
   return (
     <header className={styles.header}>
@@ -13,10 +15,10 @@ const MainHeader = () => {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link href="/meals">Browse Meals</Link>
+            <NavLink path="/meals">Browse Meals</NavLink>
           </li>
           <li>
-            <Link href="/community">Foodies Community</Link>
+            <NavLink path="/community">Foodies Community</NavLink>
           </li>
         </ul>
       </nav>
